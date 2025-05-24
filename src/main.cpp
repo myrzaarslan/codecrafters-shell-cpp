@@ -9,6 +9,7 @@ int main() {
   while (true) {
     std::string input;
     std::cout << "$ ";
+    std::getline(std::cin, input);
 
     std::istringstream iss(input);
     std::string command;
