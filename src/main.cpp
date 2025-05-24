@@ -12,8 +12,7 @@ int main() {
     std::cout << "$ ";
     std::string input;
     std::getline(std::cin, input);
-    if (input == "exit") {
-      std::cout << "0";
+    if (input == "exit 0") {
       break;
     }
     else {
