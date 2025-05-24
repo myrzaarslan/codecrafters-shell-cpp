@@ -6,8 +6,8 @@ int main() {
   std::cout << std::unitbuf;
   std::cerr << std::unitbuf;
 
-  std::string input;
   while (true) {
+    std::string input;
     std::cout << "$ ";
 
     std::istringstream iss(input);
@@ -34,3 +34,4 @@ int main() {
 
   return 0;
 }
+
