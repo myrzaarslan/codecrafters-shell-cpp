@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <string_view>
 
 int main() {
   // Flush after every std::cout / std:cerr
@@ -15,6 +16,7 @@ int main() {
     if (input == "exit 0") {
       break;
     }
+    if (input.contains("echo"))
     else {
       std::cout << input << ": command not found" << std::endl;
     }
