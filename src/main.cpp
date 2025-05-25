@@ -36,7 +36,7 @@ int main() {
       std::string word;
       iss >> word;
       if (std::find(commands.begin(), commands.end(), word) != commands.end()) {
-        std::cout << input << " is a shell builtin" << std::endl;
+        std::cout << word << " is a shell builtin" << std::endl;
       }
       else {
         std::cout << word << ": not found" << std::endl;
